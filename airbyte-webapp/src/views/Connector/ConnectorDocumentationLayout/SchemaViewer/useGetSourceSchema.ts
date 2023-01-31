@@ -1,7 +1,7 @@
 import { JSONSchema4 } from "json-schema";
 import { useQuery } from "react-query";
 
-import { useConfig } from "packages/cloud/services/config";
+import { useConfig } from "config";
 
 const fetchSchema = async ({
   apiUrl,
