@@ -17,6 +17,7 @@ interface MarkdownProps {
 }
 
 export const Markdown: React.FC<MarkdownProps> = ({ content, className, rehypePlugins }) => {
+  console.log("content", content);
   return (
     <ReactMarkdown
       // Open everything except fragment only links in a new tab
