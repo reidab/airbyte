@@ -11,23 +11,8 @@
 .actions {
   display: flex;
 
-  .resetButton,
-  .syncButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .resetButton {
     margin-right: variables.$spacing-md;
-  }
-
-  .syncButton {
-    .iconRotate {
-      display: flex;
-      margin-right: 12px;
-      align-items: center;
-    }
   }
 }
 
